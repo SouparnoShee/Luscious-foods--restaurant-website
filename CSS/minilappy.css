@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 590px;
+    /* border: 2px solid black; */
+    transition: all 1s ease-out;
+    background-color: #e1e8e9;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navitems{
+    flex-direction: column;
+    transition: all 1s ease-out;
+}
+
+.aboutbox img {
+    height: 457px;
+}
+
+.section6 {
+    height: 640px;
+}
+
+.hams{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 8%;
+    right: 5%;
+}
+
+.h-nav{
+    height: 90px;
+}
+
+.navseen{
+    opacity: 0;
+}
+
+div #logo{
+    opacity: 1;
+}
+
+.line{
+    width: 52px;
+    background-color: black;
+    height: 7px;
+    margin: 3px;
+    border-radius: 44px;
+    
+}

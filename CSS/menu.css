@@ -1,0 +1,730 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
+@import url('https://fonts.maateen.me/mukti/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Explora&family=Lobster&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar{
+    height: 90px;
+    /* border: 2px solid black; */
+    background-color: #e1e8e9;
+    /* position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    /* left: 0; */
+} 
+
+.hams{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top: 42%;
+    right: 2%;
+}
+
+.line{
+    width: 52px;
+    background-color: black;
+    height: 7px;
+    margin: 3px;
+    border-radius: 44px;
+    
+}
+
+.navitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.items{
+    margin:30px 62px;
+}
+
+.items a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Explora', cursive;
+    font-weight: bolder;
+    font-size: 38px;
+}
+
+#logo{
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(88, 28, 17);
+    margin: 0px 100px;
+}
+
+
+
+
+/* first menu */
+.sec1{
+    color: white;
+    background-color: black;
+    height: 900px;
+    /* background-color: #202222; */
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+.cmenu{
+    height: 300px;
+    position: absolute;
+    top:26%;
+    right: 15%;
+    border-radius: 50%;
+    border:2px solid orangered;
+}
+.menuhead{
+    font-size: 70px;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menulist1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 80px;
+}
+
+.foodtype1{
+    margin: 0px 80px;
+    font-family: 'Explora', cursive; 
+    font-size: 72px;
+    font-weight: bolder;
+    width: 20%;
+    color: rgb(156, 43, 2);
+    /* animation: glow 1s ease-in-out infinite; */
+
+}
+
+
+
+.foodtype1:hover{
+    border-radius: 22px;
+    border: 2px solid orangered;
+}
+
+.menuitems1{
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: 'Explora', cursive; */
+    font-family: 'Caveat', cursive;
+}
+
+.rename1{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-size: 90px;
+    color: gray;
+    font-family: 'CharuChandan3D', sans-serif;
+    opacity: 0.3;
+}
+
+/* second menu */
+.sec2{
+    color: white;
+    background-color: black;
+    height: 1200px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.pmenu1,.pmenu2,.pmenu3{
+    height: 200px;
+}
+
+.pmenu1{
+    position: absolute;
+    top:20%;
+    right: 3%;
+    border-radius: 50%;
+    border:2px solid orangered;
+}
+.pmenu3{
+    position: absolute;
+    top:40%;
+    right: 30%;
+    border-radius: 50%;
+    border:2px solid orangered;
+}
+
+.foodtype2{
+    font-size: 40px;
+    text-align: start;
+    font-family: 'Explora', cursive; 
+    font-size: 62px;
+    font-weight: bolder;
+    padding: 80px;
+    color: rgb(156, 43, 2);
+}
+
+.menulist2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px 80px;
+}
+
+.menuitems2{
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: 'Explora', cursive; */
+    font-family: 'Caveat', cursive;
+}
+.rename2{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-size: 90px;
+    color: gray;
+    font-family: 'CharuChandan3D', sans-serif;
+    opacity: 0.3;
+}
+
+
+
+/* yhird menu */
+.sec3{
+    color: white;
+    background-color: black;
+    /* background-color: #e1e8e9; */
+    height: 1000px;
+    /* border: 2px solid blueviolet; */
+    position: relative;
+}
+
+.foodtype3{
+    font-size: 30px;
+    text-align: start;
+    font-family: 'Explora', cursive; 
+    font-size: 62px;
+    font-weight: bolder;
+    padding: 50px;
+    color: rgb(156, 43, 2);
+}
+
+.menulist3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 80px;
+}
+
+.menuitems3{
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: 'Explora', cursive; */
+    font-family: 'Caveat', cursive;
+}
+
+.rename3{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-size: 90px;
+    color: gray;
+    font-family: 'CharuChandan3D', sans-serif;
+    opacity: 0.3;
+}
+
+/* Fourth section */
+
+.sec4{
+    color: white;
+    background-color: black;
+    height: 1500px;
+    /* border: 2px solid blueviolet; */
+    position: relative;
+}
+
+.foodtype4{
+    font-size: 30px;
+    text-align: start;
+    font-family: 'Explora', cursive; 
+    font-size: 62px;
+    font-weight: bolder;
+    padding: 50px;
+    color: rgb(160, 43, 0);
+}
+
+.menulist4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 80px;
+}
+
+.menuitems4{
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: 'Explora', cursive; */
+    font-family: 'Caveat', cursive;
+}
+
+.momohd{
+    font-size: 60px;
+    font-family: 'Explora', cursive; 
+    margin: 50px;
+    color: rgb(228, 112, 69);
+
+}
+
+.mmenu1,.mmenu3{
+    height: 200px;
+}
+
+.mmenu1{
+    position: absolute;
+    top:20%;
+    right: 3%;
+    border-radius: 50%;
+    border:2px solid orangered;
+}
+.mmenu3{
+    position: absolute;
+    top:40%;
+    right: 30%;
+    border-radius: 50%;
+    border:2px solid orangered;
+}
+
+.rename4{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-size: 90px;
+    color: gray;
+    font-family: 'CharuChandan3D', sans-serif;
+    opacity: 0.3;
+}
+
+/* fifth section */
+.sec5{
+    color: white;
+    background-color: black;
+    height: 800px;
+    /* border: 2px solid blueviolet; */
+    position: relative;
+}
+
+.foodtype5{
+    font-size: 30px;
+    text-align: start;
+    font-family: 'Explora', cursive; 
+    font-size: 62px;
+    font-weight: bolder;
+    padding: 90px;
+    color: rgb(160, 43, 0);
+}
+
+.menuitems5{
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: 'Explora', cursive; */
+    font-family: 'Caveat', cursive;
+}
+
+/* sixth section */
+
+.sec6{
+    color: white;
+    background-color: black;
+    height: 1000px;
+    /* border: 2px solid blueviolet; */
+    position: relative;
+}
+
+.foodtype6{
+    font-size: 30px;
+    text-align: start;
+    /* text-shadow: 2px 2px 12px red; */
+    font-family: 'Explora', cursive; 
+    font-size: 62px;
+    font-weight: bolder;
+    padding: 90px;
+    color: rgb(160, 43, 0);
+    
+}
+
+
+
+.menuitems6{
+    margin: 25px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: 'Explora', cursive; */
+    font-family: 'Caveat', cursive;
+    text-align: start;
+}
+
+.pastamenu1,.pastamenu3{
+    height: 200px;
+}
+
+.pastamenu1{
+    position: absolute;
+    height: 250px;
+    top:20%;
+    right: 3%;
+    border-radius: 50%;
+    border:2px solid orangered;
+}
+.pastamenu3{
+    position: absolute;
+    top:40%;
+    right: 30%;
+    border-radius: 50%;
+    border:2px solid orangered;
+}
+
+.rename5{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-size: 90px;
+    color: gray;
+    font-family: 'CharuChandan3D', sans-serif;
+    opacity: 0.3;
+}
+
+
+/* 7th section */
+.sec7{
+    color: white;
+    background-color: black;
+    height: 500px;
+    /* border: 2px solid blueviolet; */
+    position: relative;
+}
+
+.foodtype7{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 12px red;
+    font-family: 'Explora', cursive; 
+    font-size: 62px;
+    font-weight: bolder;
+    padding: 50px;
+    color: rgb(160, 43, 0);
+    animation: glow 1s ease-in-out infinite;
+}
+
+ @keyframes glow{
+    0%,10%{
+        color: green;
+        text-shadow: 2px 2px 12px green;
+    }
+    20%{
+        color: yellow;
+        text-shadow: 2px 2px 12px yellow;
+    }
+    50%{
+        color: red;
+    }
+} 
+
+.menuitems7{
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: 'Explora', cursive; */
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+
+/* section 8(button) */
+
+.sec8{
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdf{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 18px;
+    background-color: tomato;
+    font-family: 'Caveat', cursive;
+}
+
+.pdf:hover{
+    background-color: red;
+}
+
+footer{
+    height:70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* media quries */
+
+@media(max-width: 1200px){
+    .navbar {
+        height: 500px;
+        /* display:none; */
+        transition: all 1s ease-out;
+    }
+    .navitems {
+        flex-direction: column;
+        transition: all 1s ease-out;
+    }
+
+    .hams{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        top: 4%;
+        right: 5%;
+    }
+    
+    .h-nav{
+        height: 100px;
+    }
+    
+    .navseen{
+        opacity: 0;
+    }
+    
+    div #logo{
+        opacity: 1;
+    }
+    
+    .line{
+        width: 52px;
+        background-color: black;
+        height: 7px;
+        margin: 3px;
+        border-radius: 44px;
+        
+    }
+
+    .menuhead {
+        font-size: 51px;
+
+    }
+
+    .foodtype1,.foodtype2,.foodtype3,.foodtype4,.foodtype5,.foodtype6,.foodtype7 {
+        font-size: 51px;
+    }
+
+    .foodtype2{
+        padding: 40px;
+    }
+
+    .menuitems1,.menuitems2,.menuitems3,.menuitems4,.menuitems5,.menuitems6,.menuitems7{
+        margin: 10px;
+        font-size: 23px;
+    }
+
+    .sec2 {
+        height: 1400px;
+
+    }
+
+    .pmenu1 {
+        top: 61%;
+        right: 21%;
+    }
+    .pmenu3 {
+        top: 61%;
+        right: 60%;
+  
+    }
+
+    .sec4{
+        height: 1800px;
+    }
+
+    .mmenu1 {
+        top: 71%;
+        right: 21%;
+
+    }
+
+    .mmenu3 {
+        top: 72%;
+        right: 61%;
+       
+    }
+
+
+}
+
+@media(max-width: 900px){
+    .cmenu{
+        display: none;
+    }
+    .menuhead {
+        font-size: 48px;
+
+    }
+
+    .sec6{
+        height: 1197px;
+    }
+
+    .pastamenu1{
+        top: 64%;
+        right: 14%;
+    }
+    .pastamenu3{
+        top: 64%;
+        right: 55%;
+    }
+
+    .sec1{
+        height: 1200px;
+    }
+
+    .rename1,.rename2,.rename3,.rename4,.rename5 {
+        font-size: 74px;
+    }
+    .momohd {
+        font-size: 39px;
+    }
+}
+
+@media(max-width: 800px){
+    .rename1,.rename2,.rename3,.rename4,.rename5 {
+        font-size: 54px;
+    }
+    .sec5{
+        height: 550px;
+    }
+    .pmenu1,.pmenu3{
+        height: 172px;
+    }
+    .mmenu1,.mmenu3{
+        height: 153px;
+    }
+
+}
+
+@media(max-width: 800px){
+    .rename1,.rename2,.rename3,.rename4,.rename5 {
+        font-size: 39px;
+    }
+    .pmenu1,.pmenu3{
+        height: 110px;
+    }
+    .mmenu1,.mmenu3{
+        height: 108px;
+    }
+    .pastamenu3,.pastamenu1{
+        height: 147px;
+    }
+}
+
+@media(max-width:550px){
+    .rename1,.rename2,.rename3,.rename4,.rename5 {
+        font-size: 35px;
+    }
+
+    .menuitems1, .menuitems2, .menuitems3, .menuitems4, .menuitems5, .menuitems6, .menuitems7 {
+        margin: 10px;
+        font-size: 17px;
+    }
+
+    .pmenu1 {
+        top: 73%;
+        right: 13%;
+    }
+    .pmenu3 {
+        top: 55%;
+        right: 37%;
+    }
+    
+    .mmenu3 {
+        top: 62%;
+        right: 47%;
+    }
+
+    .mmenu1 {
+        top: 75%;
+        right: 21%;
+    }
+
+    .pastamenu1 {
+        top: 78%;
+        right: 14%;
+    }
+    .pastamenu3 {
+        top: 64%;
+        right: 35%;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:400px){
+    .foodtype1, .foodtype2, .foodtype3, .foodtype4, .foodtype5, .foodtype6, .foodtype7 {
+        font-size: 38px;
+    }
+    .rename1, .rename2, .rename3, .rename4, .rename5 {
+        font-size: 27px;
+    }
+
+    .menuitems1, .menuitems2, .menuitems3, .menuitems4, .menuitems5, .menuitems6, .menuitems7 {
+        margin: 10px 2px;
+        font-size: 12px;
+    }
+
+    .sec3,.sec1{
+        height: 810px;
+    }
+    .pastamenu1 {
+        top: 78%;
+        right: 19%;
+    }
+    .pastamenu3 {
+        top: 64%;
+        right: 21%;
+    }
+
+    .pastamenu3,.pastamenu1{
+        height: 110px;
+    }
+
+    .momohd{
+        margin: 26px;
+    }
+
+
+}
+

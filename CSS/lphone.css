@@ -1,0 +1,140 @@
+.section1 .sec1hd {
+    font-size: 47px;
+    text-shadow: 14px 11px 12px rgb(54 39 39);
+}
+
+.section1 .sec1p {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+.section1 .sec1hd, .sec1p, .butsec1 {
+    margin: 10px 40px;
+}
+
+.butsec1 {
+    padding: 3px 24px;
+}
+
+.section2 .sec2hd {
+    font-size: 32px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.section2 .sec2hd, .butsec2, h3 {
+    margin: 2px 42px;
+    color: white;
+}
+
+.sec3hd {
+    margin-top: 45px;
+    font-size: 29px;
+}
+
+.cards {
+    /* border: 2px solid black; */
+    height: 489px;
+    width: 59%;
+    margin: 30px;
+}
+
+.cardhd1 {
+    margin-top: 70px;
+    font-size: 26px;
+    font-family: 'Explora', cursive;
+}
+
+.cardp1 {
+    font-weight: bold;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Explora', cursive;
+    font-size: 18px;
+}
+
+.cards img {
+    height: 147px;
+    /* margin-top: 50px; */
+}
+
+.aboutbox img {
+    height: 226px;
+    margin: 30px;
+}
+
+.menuhd {
+    font-size: 35px;
+
+}
+
+.menudetails {
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: bolder;
+    width: 84%;
+}
+
+.section5 a {
+    margin-top: 30px;
+
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+    background-color: rgb(226, 53, 23);
+    border-radius: 22px;
+}
+
+.deliveryh {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.deliveryp {
+    width: 83%;
+    margin-top: 49px;
+
+    font-size: 16px;
+    /* font-weight: 800; */
+}
+
+.deliverymenu a {
+    margin-top: 30px;
+
+    font-size: 18px;
+}
+
+.foothead {
+
+    font-weight: bolder;
+    font-size: 17px;
+    color: rgb(88, 28, 17);
+}
+.img img {
+    height: 20px;
+}
+
+.footpara {
+    width: 88%;
+    font-size: 7px;
+    margin: 15px 0px;
+
+}
+
+.phone {
+    font-weight: bolder;
+    font-size: 9px;
+
+}
+
+footer {
+    height: 32px;
+    text-align: center;
+    font-size: 8px;
+    font-weight: bolder;
+    background-color: rgb(240, 235, 235);
+}
+
+.section7{
+    height: 290px;
+}

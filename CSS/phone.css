@@ -1,0 +1,93 @@
+.section1 .sec1hd, .sec1p, .butsec1 {
+    margin: 8px 40px;
+
+}
+
+.section1 .sec1p {
+    font-size: 26px;
+
+    font-weight: bolder;
+}
+
+.section1 .sec1hd {
+    font-size: 67px;
+    text-shadow: 14px 11px 12px rgb(54 39 39);
+}
+
+.boxes {
+    height: 1800px;
+    flex-direction: column;
+}
+
+.section3 {
+    height: 1900px;
+    /* border: 2px solid black; */
+}
+
+.boxes {
+    height: 1800px;
+}
+
+.cards {
+    /* border: 2px solid black; */
+    height: 535px;
+    width: 63%;
+    margin: 30px;
+}
+
+.cards img {
+    height: 197px;
+    /* margin-top: 50px; */
+}
+
+.section4 {
+    height: 1300px;
+    /* border: 2px solid black; */
+}
+
+.aboutbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aboutbox img {
+    height: 408px;
+    margin: 30px;
+}
+
+.aboutbox .aboutp {
+    width: 70%;
+    font-size: 16px;
+
+}
+
+.section6 {
+    height: 1040px;
+}
+
+.deliverybox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.deliveryp {
+    width: 56%;
+    margin-top: 57px;
+
+    font-size: 18px;
+    /* font-weight: 800; */
+}
+
+.deliverybox img {
+    height: 177px;
+    margin-top: 85px;
+}
+
+.deliverymenu {
+    margin: 69px 2px;
+    text-align: center;
+}
